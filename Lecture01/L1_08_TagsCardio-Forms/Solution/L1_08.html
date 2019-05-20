@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<head>
+    <title>Forms</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Customer Details</legend>
+            <label for="firstName" id="firstName">First Name
+                <input for="firstName" id="firstName" type="text" placeholder="George" focused>
+            </label>
+            <br/>
+            <br/>
+            <label for="lastName" id="lastName">Last Name
+                <input for="lastName" id="lastName" type="text" placeholder="Davis">
+            </label>
+            <br/>
+            <br/>
+            <label for="genderChoice" id="contactChoice">
+                <label for="genderChoice1" id="genderChoice1">Male
+                    <input name="gender" for="genderChoice1" id="genderChoice1" type="radio" value="Male">
+                </label>
+                <label for="genderChoice2" id="genderChoice2">Female
+                    <input name="gender" for="genderChoice2" id="genderChoice2" type="radio" value="Female">
+                </label>
+                <label for="genderChoice3" id="genderChoice3">Other
+                    <input name="gender" for="genderChoice3" id="genderChoice3" type="radio" value="Male">
+                </label>
+            </label>
+            <br/>
+            <br/>
+            <label for="contactChoice" id="contactChoice">Preferred contact method:
+                <label for="contactChoice1" id="contactChoice1">Email
+                    <input name="contact" for="contactChoice1" id="contactChoice1" type="radio" value="Email">
+                </label>
+                <label for="contactChoice2" id="contactChoice2">Phone
+                    <input name="contact" for="contactChoice2" id="contactChoice2" type="radio" value="Phone">
+                </label>
+            </label>
+            <br/>
+            <br/>
+            <label for="email" id="email">Email
+                <input for="email" id="email" type="email" placeholder="your@email.com">
+            </label>
+            <br/>
+            <br/>
+            <label for="phone" id="phone">Phone
+                <input for="phone" id="phone" type="text" placeholder="+359885236225">
+            </label>
+            <br/>
+            <br/>
+            <label for="town" id="town">Town
+                <select for="town" id="town">
+                    <option value="Varna">Varna</option>
+                    <option value="Plovdiv">Plovdiv</option>
+                    <option value="Burgas">Burgas</option>
+                    <option value="Sofia">Sofia</option>
+                    <option value="Pleven">Pleven</option>
+                </select>
+            </label>
+            <br/>
+            <br/>
+            <label for="age" id="age">Age
+                <input for="age" id="age" type="number" min="18" max="70">
+            </label>
+            <br/>
+            <br/>
+            <label for="programmingLanguage" id="programmingLanguage">Programming language
+                <input list="programmingLanguagesList" for="programmingLanguage" id="programmingLanguage">
+                <datalist id="programmingLanguagesList">
+                    <option value="Java">
+                    <option value="PHP">
+                    <option value="C#">
+                    <option value="JavaScript">
+                    <option value="Python">
+                    <option value="Ruby">
+                    <option value="Other">
+                </datalist>
+            </label>
+            <br/>
+            <br/>
+            <label for="moreInfo" id="moreInfo">
+                <textarea for="moreInfo" id="moreInfo" rows="5" cols="20" placeholder="More information..."></textarea>
+            </label>
+            <br/>
+            <br/>
+            <label for="terms" id="terms">
+                <input for="terms" id="terms" type="checkbox">I agree the Terms and Conditions
+            </label>
+            <br/>
+            <br/>
+            <label for="submit" id="submit">
+                <input for="submit" id="submit" type="submit" value="Send">
+            </label>
+            <br/>
+            <br/>
+        </fieldset>
+    </form>
+</body>
