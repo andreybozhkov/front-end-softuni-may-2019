@@ -1,0 +1,26 @@
+html {
+    background-color: rgb(243,243,243);
+}
+
+ul.gallery {
+    display: inline-block;
+    list-style-type: none;
+    margin: auto;
+}
+
+li {
+    border-width: 0.4rem;
+    border-color: black;
+    border-style: solid;
+    display: inline-block;
+    background-color: white;
+    vertical-align: middle;
+    margin: 5px;
+}
+
+img {
+    padding: 5px;
+    box-sizing: border-box;
+    max-height: 300px;
+    max-width: 100%;
+}
