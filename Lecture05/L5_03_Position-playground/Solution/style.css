@@ -1,0 +1,29 @@
+@import url("https://use.fontawesome.com/releases/v5.8.2/css/all.css");
+
+.viewport {
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.top {
+    background-image: linear-gradient(to right, #185a9d, #42cda1);
+}
+
+.bottom {
+    background-image: linear-gradient(to right, #a83279, #d28212);    
+}
+
+section.card {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    max-width: 300px;
+    max-height: 400px;
+}
