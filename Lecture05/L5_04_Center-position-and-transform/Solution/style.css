@@ -9,11 +9,18 @@ section {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    box-shadow: 0 0 1rem 0 rgba(0,0,0,0.3);
 }
 
-p a {
+a {
     background-color: rgb(0, 153, 0);
     color: white;
+    padding: 5px;
+}
+
+div.button {
+    text-align: right;
+    width: 100%;
 }
 
 h1 {
@@ -22,15 +29,24 @@ h1 {
 }
 
 img {
-    max-width: 100%;
     position: absolute;
     top: 0%;
     left: 0%;
-    transform: translate(0%, 0%);
+    max-width: 100%;
 }
 
 div {
     width: 400px;
-    height: 300px;
+    box-sizing: border-box;
+}
+
+div.link {
+    width: 400px;
     position: relative;
+    overflow: hidden;
+    min-height: 266.39px;
+}
+
+div.content {
+    padding: 10px;
 }
