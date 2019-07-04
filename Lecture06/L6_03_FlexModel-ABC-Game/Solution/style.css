@@ -1,0 +1,31 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+div.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    max-width: 15vw;
+    height: 35rem;
+}
+
+div span {
+    border: 1px solid black;
+    flex-basis: 4vw;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 10px;
+    height: 4rem;
+    order: 99;
+}
+
+div span p {
+    text-align: center;
+    vertical-align: middle;
+}
+
+div span.order1 {
+    order: 1;
+}
